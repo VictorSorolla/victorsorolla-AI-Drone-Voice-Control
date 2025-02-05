@@ -12,13 +12,11 @@ Este proyecto se ha desarrollado como una contribución al proyecto colaborativo
 
 ## Demo
 
-Para comprender el funcionamiento de esta aplicación, puedes consultar el siguiente **video de demostración**:
-*(Incluye aquí el enlace a tu video en YouTube u otra plataforma, por ejemplo: Video de demostración)*
+Para comprender el funcionamiento de esta aplicación, puedes consultar el siguiente **video**: "enlace"
 
 En el video se emplea el simulador MAVLink (Mission Planner o SITL) para enseñar cómo el sistema recibe y ejecuta órdenes por voz, así como la planificación de rutas y el cambio a modo manual.
 
-También se incluye un segundo **video con una explicación detallada del código**:
-*(Incluye aquí otro enlace, por ejemplo: Explicación de código)*
+También se incluye un segundo **video con una explicación detallada del código**: "enlace"
 
 En él se describe la organización de los módulos (procesamiento de audio, lógica de IA, interfaz web, etc.) y se brindan pautas para ampliar o personalizar el proyecto.
 
