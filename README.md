@@ -67,8 +67,6 @@ openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 36
 python run.py
 ```
 
-La aplicación estará disponible en `https://localhost:5000`
-
 ## Configuración y personalización
 
 El sistema puede personalizarse editando los siguientes aspectos:
