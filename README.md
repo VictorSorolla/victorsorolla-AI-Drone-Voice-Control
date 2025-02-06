@@ -26,7 +26,7 @@ En él se describe la organización de los módulos (procesamiento de audio, ló
 
 1. **Python 3.8+** y un broker MQTT (Mosquitto)
 2. **HTTPS** activado (los navegadores exigen HTTPS para acceso al micrófono)
-3. **FFmpeg** instalado en el sistema (para conversión de audio)
+3. **FFmpeg** instalado en el sistema (para conversión de audio) https://github.com/GyanD/codexffmpeg/releases/tag/7.1
 4. **Certificados SSL** generados con OpenSSL
 5. **Modelo Vosk** en español (p. ej. [vosk-model-small-es-0.42](https://alphacephei.com/vosk/models))
 ### Configuración rápida
@@ -67,7 +67,10 @@ openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 36
 voice_recognition = VoiceRecognitionSystem(r"ruta\al\modelo\vosk-model-small-es-0.42")
    ```
 
-6. Ejecutar:
+6. Colocar ffmpeg.exe en la carpeta bin/, o bien asegurarse de que esté instalado y disponible en la variable de entorno del sistema.
+   
+   
+7. Ejecutar:
 ```bash
 python run.py
 ```
