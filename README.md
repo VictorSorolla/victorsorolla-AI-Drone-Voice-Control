@@ -14,7 +14,7 @@ Este proyecto se ha desarrollado como una contribución al proyecto colaborativo
 
 Para comprender el funcionamiento de esta aplicación, puedes consultar el siguiente **video**: "enlace"
 
-En el video se emplea el simulador MAVLink (Mission Planner o SITL) para enseñar cómo el sistema recibe y ejecuta órdenes por voz, así como la planificación de rutas y el cambio a modo manual.
+En el video se emplea el simulador MAVLink (Mission Planner)  para enseñar cómo el sistema recibe y ejecuta órdenes por voz, así como la planificación de rutas y el cambio a modo manual.
 
 También se incluye un segundo **video con una explicación detallada del código**: "enlace"
 
