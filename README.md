@@ -28,8 +28,7 @@ En él se describe la organización de los módulos (procesamiento de audio, ló
 2. **HTTPS** activado (los navegadores exigen HTTPS para acceso al micrófono)
 3. **FFmpeg** instalado en el sistema (para conversión de audio)
 4. **Certificados SSL** generados con OpenSSL
-5. **Modelo Vosk** en español (vosk-model-small-es-0.42)
-
+5. **Modelo Vosk** en español (p. ej. [vosk-model-small-es-0.42](https://alphacephei.com/vosk/models))
 ### Configuración rápida
 
 1. Clonar el repositorio:
@@ -60,7 +59,15 @@ cd openssl
 openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365
 ```
 
-5. Ejecutar:
+5. Descargar e instalar el modelo de Vosk (en español), colocando los archivos en la carpeta que usarás en el código.
+   
+  En `routes.py` actualizar la línea:
+   
+```python
+voice_recognition = VoiceRecognitionSystem(r"ruta\al\modelo\vosk-model-small-es-0.42")
+   ```
+
+6. Ejecutar:
 ```bash
 python run.py
 ```
