@@ -25,10 +25,9 @@ En él se describe la organización de los módulos (procesamiento de audio, ló
 ### Prerequisitos
 
 1. **Python 3.8+** y un broker MQTT (Mosquitto)
-2. **HTTPS** activado (los navegadores exigen HTTPS para acceso al micrófono)
-3. **FFmpeg** instalado en el sistema (para conversión de audio) https://github.com/GyanD/codexffmpeg/releases/tag/7.1
-4. **Certificados SSL** generados con OpenSSL
-5. **Modelo Vosk** en español (p. ej. [vosk-model-small-es-0.42](https://alphacephei.com/vosk/models))
+2. **FFmpeg** instalado en el sistema (para conversión de audio) https://github.com/GyanD/codexffmpeg/releases/tag/7.1
+3. **Certificados SSL** generados con OpenSSL
+4. **Modelo Vosk** en español (p. ej. [vosk-model-small-es-0.42](https://alphacephei.com/vosk/models))
 ### Configuración rápida
 
 1. Clonar el repositorio:
