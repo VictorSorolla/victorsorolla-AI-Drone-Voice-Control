@@ -1,6 +1,6 @@
 # Control Conversacional de Drones con IA
 
-Este proyecto se ha desarrollado como una contribución al proyecto colaborativo **Drone Engineering Ecosystem (DEE)**. El objetivo principal ha sido **habilitar el control de un dron por voz**, incorporando capacidades de inteligencia artificial para la interpretación de comandos y una interacción conversacional más natural.
+Este proyecto se ha desarrollado como una contribución al proyecto colaborativo **Drone Engineering Ecosystem (DEE)**. El objetivo principal ha sido incorporar capacidades de inteligencia artificial para la interpretación de comandos y una interacción conversacional natural.
 
 ## Principales funcionalidades
 
