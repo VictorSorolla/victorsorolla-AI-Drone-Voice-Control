@@ -68,7 +68,14 @@ voice_recognition = VoiceRecognitionSystem(r"ruta\al\modelo\vosk-model-small-es-
 
 6. Colocar ffmpeg.exe en la carpeta bin/, o bien asegurarse de que esté instalado y disponible en la variable de entorno del sistema.
    
+7. Cambiar la clave api
    
+  En `voiceControlService.py` actualizar la línea:
+  ```python
+openai.api_key = "API_key"
+   ```
+La API key tiene que ser solicitada al profesor
+
 7. Ejecutar:
 ```bash
 python run.py
