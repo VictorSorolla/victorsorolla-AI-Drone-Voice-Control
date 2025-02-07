@@ -98,7 +98,7 @@ class VoiceRecognitionSystem:
             
         return transcripcion_final
 
-openai.api_key = "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"
+openai.api_key = #Clave API
 #funcion para enviar el comando a openAI y obtener repsuesta
 historial_usuarios = {}
 
