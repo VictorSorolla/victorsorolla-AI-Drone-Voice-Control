@@ -76,7 +76,7 @@ openai.api_key = "API_key"
    ```
 La API key tiene que ser solicitada al profesor
 
-7. Ejecutar:
+8. Ejecutar:
 ```bash
 python run.py
 ```
