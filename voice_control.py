@@ -98,8 +98,8 @@ class VoiceRecognitionSystem:
             
         return transcripcion_final
 
-openai.api_key = "tu_clave_api"
-#funcion para enviar el comando a openAI y obtener repsuesta
+openai.api_key = "API_key"
+
 historial_usuarios = {}
 
 PERSONALIDADES = {
