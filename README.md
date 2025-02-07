@@ -70,7 +70,7 @@ voice_recognition = VoiceRecognitionSystem(r"ruta\al\modelo\vosk-model-small-es-
    
 7. Cambiar la clave api
    
-  En `voiceControlService.py` actualizar la línea:
+  En `voice_control.py` actualizar la línea:
   ```python
 openai.api_key = "API_key"
    ```
